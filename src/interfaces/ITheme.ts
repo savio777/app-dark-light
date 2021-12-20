@@ -1,6 +1,8 @@
+export interface Theme {
+  background: string;
+  color: string;
+}
+
 export default interface ITheme {
-  theme: {
-    background: string;
-    color: string;
-  };
-};
+  theme: Theme;
+}
